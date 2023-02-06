@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#F5F5F5] flex justify-center items-center min-h-screen">
+    <div id="player">
+        <div class="header">
+            <button>
+                <iconify-icon icon="ic:outline-menu"></iconify-icon>
+            </button>
+            <div class="about">
+                <p>Playing Now</p>
+                <h1>Someone lived this</h1>
+                <p>-Ndzib-</p>
+            </div>
+            <button>
+                <iconify-icon icon="ic:outline-add-to-photos"></iconify-icon>
+            </button>
+        </div>
+        <img src="https://scontent.xx.fbcdn.net/v/t39.30808-6/313391398_553231450141196_7874890254784473014_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFHEcvwFHLXR3IgGcSyYhxVx0i4zqF8JJ_HSLjOoXwkn-QHhP1xDSR2vy9pbtQ8jUWhsC2zo7-WoUYct8yIsm8u&_nc_ohc=MAMYlynagTYAX8AHKYW&_nc_ht=scontent.xx&oh=00_AfCXTApd1hwvPxYyUSl-HyBnAnOK3X1EMZ1mJ55ew76kiw&oe=63E57FCF" alt="" class="poster">
+
+        <div class="seek">
+            <div class="indicator"></div>
+            <div class="time">
+                <span>3:47</span>
+                <span>5:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="rewind"><iconify-icon icon="mdi:rewind-15"></iconify-icon></button>
+            <button id="prev"><iconify-icon icon="material-symbols:skip-previous-outline-rounded"></iconify-icon></button>
+            <button id="play">
+                <iconify-icon icon="ic:twotone-play-circle-outline"></iconify-icon>
+                <!-- <iconify-icon icon="ic:outline-pause-circle"></iconify-icon> -->
+            </button>
+            <button id="next"><iconify-icon icon="ic:outline-skip-next"></iconify-icon></button>
+            <button id="skip"><iconify-icon icon="mdi:fast-forward-10"></iconify-icon></button>
+        </div>
+
+        <div class="playlist">
+            <section class="item">
+                <iconify-icon class="item-indicator" icon="octicon:dot-fill-16"></iconify-icon>
+                <p class="title">I survive not by power</p>
+                <span>3:40</span>
+            </section>
+
+            <section class="item now-playing">
+                <iconify-icon class="item-indicator" icon="octicon:dot-fill-16"></iconify-icon>
+                <p class="title">I survive not by power or by might or something else whic h you don't know</p>
+                <span>3:40</span>
+            </section>
+
+            <section class="item">
+                <iconify-icon class="item-indicator" icon="octicon:dot-fill-16"></iconify-icon>
+                <p class="title">I survive not by power</p>
+                <span>3:40</span>
+            </section>
+
+            <section class="item">
+                <iconify-icon class="item-indicator" icon="octicon:dot-fill-16"></iconify-icon>
+                <p class="title">I survive not by power</p>
+                <span>3:40</span>
+            </section>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+</body>
+
+</html>
