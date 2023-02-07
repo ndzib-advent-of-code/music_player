@@ -1,3 +1,7 @@
+:root {
+    --accent: rgb(1,191,166);
+}
+
 #player {
     padding: 35px 25px;
     background-color: white;
@@ -48,7 +52,7 @@
     height: 10px;
     border-radius: 400px;
     box-shadow: 0 0 2px 2px rgba(0,0,0, .05);
-    background-image: linear-gradient(to right, rgb(1,191,166) 20%, transparent 20%);
+    /* background-image: linear-gradient(to right, rgb(1,191,166) 20%, transparent 20%); */
 }
 
 .time {
@@ -109,4 +113,8 @@
 }
 .now-playing > .item-indicator {
     color: rgb(1,191,166);
+}
+
+button:disabled {
+    opacity: .4;
 }
